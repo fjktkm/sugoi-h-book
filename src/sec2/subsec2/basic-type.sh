@@ -2,7 +2,7 @@
 
 cd src/sec2/subsec2
 ghci <<EOF
-:l basicTypes
+:l basicType
 factorial 50
 circumference 4.0
 circumference' 4.0

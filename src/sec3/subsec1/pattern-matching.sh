@@ -1,8 +1,7 @@
 #!/bin/bash
 
-cd src/sec3/subsec1
 ghci <<EOF
-:l patternMatching
+:l src/sec3/subsec1/patternMatching
 charName 'a'
 charName 'b'
 charName 'h'

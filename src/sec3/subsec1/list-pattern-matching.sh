@@ -1,8 +1,7 @@
 #!/bin/bash
 
-cd src/sec3/subsec1
 ghci <<EOF
-:l listPatternMatching
+:l src/sec3/subsec1/listPatternMatching
 let xs = [(1, 3), (4, 3), (2, 4), (5, 3), (5, 6), (3, 1)]
 [a + b | (a, b) <- xs]
 [x * 100 + 3 | (x, 3) <- xs]

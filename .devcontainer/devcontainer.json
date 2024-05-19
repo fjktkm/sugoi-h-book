@@ -11,7 +11,7 @@
 			],
 			"settings": {
 				"[haskell]": {
-					"editor.indentSize": 2
+					"editor.tabSize": 2
 				}
 			}
 		}

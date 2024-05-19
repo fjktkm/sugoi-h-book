@@ -7,7 +7,7 @@
 		"vscode": {
 			"extensions": [
 				"formulahendry.code-runner",
-				"mogeko.haskell-extension-pack"
+				"haskell.haskell"
 			],
 			"settings": {
 				"[haskell]": {

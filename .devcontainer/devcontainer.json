@@ -8,7 +8,12 @@
 			"extensions": [
 				"formulahendry.code-runner",
 				"mogeko.haskell-extension-pack"
-			]
+			],
+			"settings": {
+				"[haskell]": {
+					"editor.indentSize": 2
+				}
+			}
 		}
 	}
 }

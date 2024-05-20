@@ -1,3 +1,5 @@
+module Src.Sec7.Subsec7.Tree where
+
 data Tree a = EmptyTree | Node a (Tree a) (Tree a)
   deriving (Show)
 

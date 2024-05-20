@@ -1,3 +1,5 @@
+module Src.Sec7.Subsec8.TrafficLight where
+
 data TrafficLight = Red | Yellow | Green
 
 instance Eq TrafficLight where

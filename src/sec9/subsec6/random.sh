@@ -1,8 +1,5 @@
 #!/bin/bash
 
-cabal update
-cabal install --lib random
-
 ghci <<EOF
 :m +System.Random
 random (mkStdGen 100)

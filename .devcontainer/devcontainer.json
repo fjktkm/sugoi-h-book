@@ -7,7 +7,8 @@
 		"vscode": {
 			"extensions": [
 				"formulahendry.code-runner",
-				"haskell.haskell"
+				"haskell.haskell",
+				"ms-azuretools.vscode-docker"
 			],
 			"settings": {
 				"[haskell]": {

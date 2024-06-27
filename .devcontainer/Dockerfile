@@ -1,4 +1,4 @@
-FROM haskell:latest
+FROM haskell:9.8
 
 ENV PATH="${PATH}:/root/.ghcup/bin:/root/.cabal/bin:/root/.ghc/bin" \
     BOOTSTRAP_HASKELL_NONINTERACTIVE=1

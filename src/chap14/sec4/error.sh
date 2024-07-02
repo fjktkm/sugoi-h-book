@@ -1,11 +1,11 @@
 #!/bin/bash
 
 ghci <<EOF
-:m +Control.Monad.Error
+:m +Control.Monad.Except
 :t Right 4
 :t Left "out of cheese error"
-:t strMsg
-strMsg "boom!" :: String
+:t throwError
+throwError "boom!" :: String
 Left "boom" >>= \x -> return (x + 1)
 Left "boom " >>= \x -> Left "no way!"
 Right 100 >>= \x -> Left "no way!"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec6/subsec3/fromListWith
+:l src/chap6/sec3/fromListWith
 Map.lookup "patsy" $ phoneBookToMap phoneBook
 Map.lookup "wendy" $ phoneBookToMap phoneBook
 Map.lookup "betty" $ phoneBookToMap phoneBook

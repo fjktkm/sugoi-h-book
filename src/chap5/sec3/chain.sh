@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec5/subsec3/mapAndFilter
+:l src/chap5/sec3/mapAndFilter
 chain 10
 chain 1
 chain 30

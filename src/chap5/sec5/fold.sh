@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec5/subsec5/fold
+:l src/chap5/sec5/fold
 :t foldl
 sum' [3, 5, 2, 1]
 :t foldl

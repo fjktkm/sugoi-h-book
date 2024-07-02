@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec5/subsec4/lambda
+:l src/chap5/sec4/lambda
 map (+3) [1, 6, 3, 2]
 map (\x -> x + 3) [1, 6, 3, 2]
 zipWith (\a b -> (a * 30 + 3) / b) [5, 4, 3, 2, 1] [1, 2, 3, 4, 5]

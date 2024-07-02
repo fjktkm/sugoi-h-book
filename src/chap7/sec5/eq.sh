@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec5/Person
+:l src/chap7/sec5/Person
 mca == adRock
 mikeD == adRock
 mikeD == mikeD

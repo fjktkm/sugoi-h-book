@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec5/Day
+:l src/chap7/sec5/Day
 Wednesday
 show Wednesday
 read "Saturday" :: Day

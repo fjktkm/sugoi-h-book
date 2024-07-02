@@ -3,7 +3,7 @@ import System.IO
 main :: IO ()
 main = do
   withFile
-    "src/sec9/subsec2/baabaa.txt"
+    "src/chap9/sec2/baabaa.txt"
     ReadMode
     ( \handle -> do
         contents <- hGetContents handle

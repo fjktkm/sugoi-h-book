@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec2/subsec2/basicType
+:l src/chap2/sec2/basicType
 factorial 50
 circumference 4.0
 circumference' 4.0

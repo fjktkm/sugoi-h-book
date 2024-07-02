@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec6/subsec2/caesar
+:l src/chap6/sec2/caesar
 ord 'a'
 chr 97
 map ord "abcdefgh"

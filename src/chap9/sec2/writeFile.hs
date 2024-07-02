@@ -1,7 +1,7 @@
-import System.IO
 import Data.Char
+import System.IO
 
 main :: IO ()
 main = do
-  contents <- readFile "src/sec9/subsec2/baabaa.txt"
-  writeFile "src/sec9/subsec2/baabaacaps.txt" (map toUpper contents)
+  contents <- readFile "src/chap9/sec2/baabaa.txt"
+  writeFile "src/chap9/sec2/baabaacaps.txt" (map toUpper contents)

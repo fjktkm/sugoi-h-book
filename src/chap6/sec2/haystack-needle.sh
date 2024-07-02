@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec6/subsec2/haystackNeedle
+:l src/chap6/sec2/haystackNeedle
 :m + Data.List Data.Map Data.Set
 tails "party"
 tails [1, 2, 3]

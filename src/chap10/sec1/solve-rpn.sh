@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec10/subsec1/solveRPN
+:l src/chap10/sec1/solveRPN
 solveRPN "10 4 3 + 2 * -"
 solveRPN "2 3.5 +"
 solveRPN "90 34 12 33 55 66 + * - +"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec2/Shape
+:l src/chap7/sec2/Shape
 :t Circle
 :t Rectangle
 area $ Circle 10 20 10

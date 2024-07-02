@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec6/subsec2/coolNum
+:l src/chap6/sec2/coolNum
 :m + Data.Char Data.List
 digitToInt '2'
 digitToInt 'F'

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec6/subsec3/map
+:l src/chap6/sec3/map
 Map.fromList [(3, "shoes"), (4, "trees"), (5, "bees")]
 Map.fromList [("kima", "greggs"), ("jimmy", "mcnulty"), ("jay", "landsman")]
 Map.fromList [("MS", 1), ("MS", 2), ("MS", 3)]

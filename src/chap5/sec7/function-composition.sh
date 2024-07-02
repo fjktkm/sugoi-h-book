@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec5/subsec7/functionComposition
+:l src/chap5/sec7/functionComposition
 map (\x -> negate (abs x)) [5, -3, -6, 7, -3, 2, -19, 24]
 map (negate . abs) [5, -3, -6, 7, -3, 2, -19, 24]
 map (\xs -> negate (sum (tail xs))) [[1 .. 5], [3 .. 6], [1 .. 7]]

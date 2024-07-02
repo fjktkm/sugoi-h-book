@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec11/subsec2/CMaybe
+:l src/chap11/sec2/CMaybe
 CNothing
 CJust 0 "haha"
 :t CNothing

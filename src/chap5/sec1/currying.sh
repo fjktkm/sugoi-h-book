@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec5/subsec1/currying
+:l src/chap5/sec1/currying
 max 4 5
 (max 4) 5
 :t max

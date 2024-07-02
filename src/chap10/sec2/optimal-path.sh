@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec10/subsec2/optimalPath
+:l src/chap10/sec2/optimalPath
 roadStep ([], []) (head heathrowToLondon)
 optimalPath heathrowToLondon
 EOF
 
-runghc src/sec10/subsec2/optimalPath.hs < src/sec10/subsec2/paths.txt
+runghc src/chap10/sec2/optimalPath.hs < src/chap10/sec2/paths.txt

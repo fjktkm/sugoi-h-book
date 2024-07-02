@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec3/Person
+:l src/chap7/sec3/Person
 let guy = Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"
 guy
 let guy = Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"

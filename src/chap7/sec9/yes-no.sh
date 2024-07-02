@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec9/YesNo.hs
+:l src/chap7/sec9/YesNo.hs
 yesno $ length []
 yesno "haha"
 yesno ""

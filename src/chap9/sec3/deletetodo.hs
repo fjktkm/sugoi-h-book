@@ -3,7 +3,7 @@ import System.Directory
 import System.IO
 
 main = do
-  contents <- readFile "src/sec9/subsec3/todo.txt"
+  contents <- readFile "src/chap9/sec3/todo.txt"
   let todoTasks = lines contents
       numberedTasks = zipWith (\n line -> show n ++ " - " ++ line) [0 ..] todoTasks
   putStrLn "These are your TO-DO items:"
@@ -15,5 +15,5 @@ main = do
   (tempName, tempHandle) <- openTempFile "." "temp"
   hPutStr tempHandle newTodoItems
   hClose tempHandle
-  removeFile "src/sec9/subsec3/todo.txt"
-  renameFile tempName "src/sec9/subsec3/todo.txt"
+  removeFile "src/chap9/sec3/todo.txt"
+  renameFile tempName "src/chap9/sec3/todo.txt"

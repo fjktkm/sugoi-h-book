@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec7/Tree.hs
+:l src/chap7/sec7/Tree.hs
 let nums = [8, 6, 4, 1, 7, 3, 5]
 let numsTree = foldr treeInsert EmptyTree nums
 numsTree

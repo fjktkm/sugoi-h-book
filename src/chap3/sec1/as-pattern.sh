@@ -1,6 +1,6 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec3/subsec1/asPattern
+:l src/chap3/sec1/asPattern
 firstLetter "Dracula"
 EOF

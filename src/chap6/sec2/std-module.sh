@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec6/subsec2/stdModule
+:l src/chap6/sec2/stdModule
 :m + Data.List Data.Map Data.Set
 words "hey these are the words in this sentence"
 words "hey these           are    the words in this sentence"

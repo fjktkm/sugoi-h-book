@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec6/Locker
+:l src/chap7/sec6/Locker
 lockerLookup 101 lockers
 lockerLookup 100 lockers
 lockerLookup 102 lockers

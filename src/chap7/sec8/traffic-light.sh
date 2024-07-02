@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec7/subsec8/TrafficLight.hs
+:l src/chap7/sec8/TrafficLight.hs
 Red == Red
 Red == Yellow
 Red \`elem\` [Red, Yellow, Green]

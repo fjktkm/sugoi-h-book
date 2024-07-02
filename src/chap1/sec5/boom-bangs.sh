@@ -1,6 +1,6 @@
 #!/bin/bash
 
 ghci <<EOF
-:l src/sec1/subsec5/boomBangs
+:l src/chap1/sec5/boomBangs
 boomBangs [7 .. 13]
 EOF

@@ -8,4 +8,5 @@ RUN curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh \
     && ghcup install hls 2.9.0.0
 
 RUN cabal update \
-    && cabal install hlint
+    && cabal install hlint \
+    && cabal install --lib random directory mtl

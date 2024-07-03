@@ -22,3 +22,8 @@ p.341 の `Control.Monad.Error` モジュールは `Deprecated` になってい�
 
 p.344 の `Writer` は型なので `writer` 関数にする必要があると思われる．
 バージョンの変更に伴うものではなく誤植のような気がする．
+
+### 14.8
+
+p.360 の `fail` は廃止された．
+また，`Monad` は `Applicative` のサブクラスになったため，まず `Applicative` のインスタンスにする必要がある．
